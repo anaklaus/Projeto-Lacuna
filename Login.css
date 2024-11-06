@@ -1,0 +1,139 @@
+ body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100vh;
+      background-color: #FFFFFF;
+      font-family: Arial, sans-serif;
+    }
+	.img {
+      position: absolute;
+      top: 0px; /* Ajuste a posição vertical */
+      left: 1140px; /* Ajuste a posição horizontal */
+      height: auto; /* Mantém a proporção da imagem */
+	  width: 67px; /* Ajuste o tamanho da imagem */
+    }
+    .img2 {
+	  position: absolute;
+      top: 490px; /* Ajuste a posição vertical */
+      right: 381px; /* Ajuste a posição horizontal */
+      width: 30px; /* Ajuste o tamanho da imagem */
+      height: auto; /* Mantém a proporção da imagem */
+}
+
+ .img3 {
+	  position: absolute;
+      top: 0px; /* Ajuste a posição vertical */
+      right: 690px; /* Ajuste a posição horizontal */
+      width: 80px; /* Ajuste o tamanho da imagem */
+      height: auto; /* Mantém a proporção da imagem */
+}
+ .img4{
+	  position: absolute;
+     top: 760px;
+     right:500px;
+      width: 80px; /* Ajuste o tamanho da imagem */
+      height: auto; /* Mantém a proporção da imagem */
+}  
+
+ .img5{
+	  position: absolute;
+     top: 60px;
+     left:840px;
+      width: 80px; /* Ajuste o tamanho da imagem */
+      height: auto; /* Mantém a proporção da imagem */
+}  
+
+ .img6{
+	  position: absolute;
+     top: 670px;
+     left:28px;
+      width: 80px; /* Ajuste o tamanho da imagem */
+      height: auto; /* Mantém a proporção da imagem */
+}  
+    h1 {
+      position: absolute;
+      top: 160px;
+      left: 458px;
+      transform: translateX(-50%);
+      color: black;
+	  font-size: 48px;
+    }
+
+    .login-container {
+      background-color: #88DDE2 ;
+      color: black;
+      padding: 49px;
+      width: 300px;
+      border-radius: 20px;
+      position: absolute;
+      top: 52%;
+      left: 250px;
+      transform: translateY(-50%);
+	   max-width: 500px;
+    }
+
+    h2 {
+	  text-align: center;
+      font-size: 30px; /* Ajuste o tamanho da fonte */
+    }
+
+    input, select {
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+      width: calc(100% - 20px);
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .password-container {
+      position: relative;
+    }
+
+    button {
+      padding: 10px;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      background-color: darkblue;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button#togglePassword {
+      position: absolute; 
+      left: 270px;
+      top: 50%; 
+      transform: translateY(-53%); 
+      background: transparent;
+      color: black; 
+      border: none;
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      padding: 0;
+      font-size: 16px;
+    }
+	
+	.Icone{
+	  position: absolute; 
+      left: 100px;
+      top: 95%; 
+	}
+	
+	.Email {
+	position: absolute; 
+      left: 160px;
+      top: 95%;
+	}
+	
+	.Grupo {
+	position: absolute; 
+      lfet: 190px;
+      top: 95%;
+	  background-color: transparent;
+	}
