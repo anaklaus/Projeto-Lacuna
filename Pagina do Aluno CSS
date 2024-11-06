@@ -1,0 +1,64 @@
+ body {
+      margin: 0; 
+      background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      gap: 80px; /* Diminuir espaço entre os retângulos */
+      margin-top: 300px; /* Ajustado para mover os retângulos 50 pixels para cima */
+    }
+
+    .Materias, .Notas, .Eventos {
+      width: 400px;  /* Diminuir largura */
+      height: 480px; /* Diminuir altura */
+      border-radius: 30px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra adicionada */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start; 
+      position: relative; /* Para posicionamento absoluto dos botões */
+    }
+
+    .Materias {
+      background-color: #10A4C5; /* Cor para Avaliações */
+    }
+
+    .Notas {
+      background-color: #3691A5; /* Cor para Notas */
+    }
+
+    .Eventos {
+      background-color: #225763; /* Cor alterada para Eventos */
+    }
+
+    button {
+      padding: 10px 20px; /* Diminuir padding */
+      font-size: 16px; /* Diminuir tamanho da fonte */
+      cursor: pointer;
+      width: 80%;
+      margin: 8px 0; /* Diminuir margem */
+      border: none; 
+      border-radius: 8px; 
+    }
+
+    .main-button {
+      color: #5F6368; /* Cor cinza para os botões */
+    }
+
+    .access-button {
+      background-color: darkblue;
+      color: white;
+      font-family: 'Carmen', sans-serif;
+      font-size: 30px; /PAgina do aluno * Diminuir tamanho da fonte */
+      margin-top: auto; 
+      margin-bottom: 20px; /* Ajustar margem inferior */
+      border-radius: 25px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra adicionada ao botão */
+    }
