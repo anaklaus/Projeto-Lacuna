@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)file:///C:/Users/Aluno/Downloads/Alu.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laguna School</title>
+   
+</head>
+<body>
+  <div class="flex-container" id="biavaipracasa">
+    <div class="Materias">
+      <button class="main-button" id="CrA">Avaliações</button>
+      <button class="main-button" id="LiP">Atividades</button>
+      <button class="main-button seminario-button" id="DiB">Seminários</button>
+      <button class="access-button" id="accessMaterias">Acessar</button>
+    </div> 
+  
+    <div class="Notas">
+      <button class="main-button" id="Bol">Horário de Aulas</button>
+      <button class="main-button" id="AtiAva">Reuniões Importantes</button>
+      <button class="main-button comunicacao-button" id="DiaAlu">Comunicações</button>
+      <button class="access-button" id="accessNotas">Acessar</button>
+    </div>
+    
+    <div class="Eventos">
+      <button class="main-button" id="Pale">Palestras</button>
+      <button class="main-button interclasse-button" id="Reun">Interclasse</button>
+      <button class="main-button passeio-button" id="Pass">Passeios e Festas</button>
+      <button class="access-button" id="accessEventos">Acessar</button>
+    </div>
+  </div>
+
+<script>
+  const CrA = document.getElementById('CrA');
+  CrA.addEventListener('click', function() {
+    window.location.href = 'https://www.youtube.com/';
+  });
+
+  const LiP = document.getElementById('LiP');
+  LiP.addEventListener('click', function() {
+    window.location.href = 'Materias.html';
+  });
+  
+  const DiB = document.getElementById('DiB');
+  DiB.addEventListener('click', function() {
+    window.location.href = 'https://www.youtube.com/';
+  });
+  
+  const Bol = document.getElementById('Bol');
+  Bol.addEventListener('click', function() {
+    window.location.href = 'https://www.youtube.com/';
+  });
+  
+  const AtiAva = document.getElementById('AtiAva');
+  AtiAva.addEventListener('click', function() {
+    window.location.href = 'https://www.youtube.com/';
+  });
+  
+  const DiaAlu = document.getElementById('DiaAlu');
+  DiaAlu.addEventListener('click', function() {
+    window.location.href = 'https://www.youtube.com/';
+  });
+  
+  const Pale = document.getElementById('Pale');
+  Pale.addEventListener('click', function() {
+    window.location.href = 'https://www.youtube.com/';
+  });
+  
+  const Reun = document.getElementById('Reun');
+  Reun.addEventListener('click', function() {
+    window.location.href = 'https://www.youtube.com/';
+  });
+  
+  const Pass = document.getElementById('Pass');
+  Pass.addEventListener('click', function() {
+    window.location.href = 'https://www.youtube.com/';
+  });
+
+  document.getElementById('accessMaterias').addEventListener('click', function() {
+    window.location.href = 'AcessarMaterias.html';
+  });
+
+  document.getElementById('accessNotas').addEventListener('click', function() {
+    window.location.href = 'AcessarNotas.html';
+  });
+
+  document.getElementById('accessEventos').addEventListener('click', function() {
+    window.location.href = 'AcessarEventos.html';
+  });
+</script>
+
+
+</body></html>
