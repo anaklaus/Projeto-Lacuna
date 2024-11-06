@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laguna School</title>
+  <link rel="stylesheet" href="Login.css"> <!-- Vinculando o CSS -->
+</head>
+<body>
+  <h1>LAGUNA SCHOOL</h1>
+  <div class="login-container">
+    <h2>Faça seu login</h2>
+    <label for="cpf">Digite seu CPF:</label>
+    <input type="text" id="cpf" name="cpf" required>
+    <label for="password">Digite sua senha:</label>
+    <div class="password-container">
+      <input type="password" id="password" name="password" required>
+      <button type="button" id="togglePassword">👁️</button>
+    </div>
+    <label for="userType">Selecione:</label>
+    <select id="userType" name="userType" required>
+      <option value="" disabled selected>Selecione</option>
+      <option value="aluno">Aluno</option>
+      <option value="professor">Professor</option>
+    </select>
+    <button type="button" onclick="login()">Acessar</button>
+    <p id="message" style="color:red;"></p>
+  </div>
+  
+  <div class="img">
+    <img src="retangulo.png" alt="fundo">
+  </div>
+  <div class="img2">
+    <img src="retangulo2.png" alt="ret">
+  </div>
+  <div class="img3">
+    <img src="crianca.png" alt="aula"> 
+  </div>
+  <div class="img4">
+    <img src="circulo.png" alt="circ" />
+  </div>
+  <div class="img5">
+    <img src="circulo2.png" alt="circulo" />
+  </div>
+  <div class="img6">
+    <img src="circulo3.png" alt="ret">
+  </div>
+
+  <div class="Icone">
+    <button type="button" id="Insta">Insta</button>
+  </div>
+  <div class="Email">
+    <button type="button" id="email">Email</button>
+  </div>
+  <div class="Grupo">
+    <button type="button" id="SN">Sobre Nós</button>
+  </div>
+</body>
+</html>
